@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-<symbol id="payment" enable-background="new 0 0 512.16 512.16" version="1.1" viewBox="0 0 512.16 512.16">
+<svg enable-background="new 0 0 512.16 512.16" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<symbol id="payment" viewBox="0 0 512.16 512.16">
 <g transform="translate(1 1)">
 			<path d="m272.07 336.15h136.53c5.12 0 8.533-3.413 8.533-8.533v-76.8c0-5.12-3.413-8.533-8.533-8.533h-136.53c-5.12 0-8.533 3.413-8.533 8.533v76.8c-1e-3 5.119 3.413 8.533 8.533 8.533zm8.533-76.8h119.47v59.733h-119.47v-59.733z"/>
 			<path d="m41.667 225.21h68.267c5.12 0 8.533-3.413 8.533-8.533s-3.413-8.533-8.533-8.533h-68.267c-5.12 0-8.533 3.413-8.533 8.533s3.413 8.533 8.533 8.533z"/>
