@@ -1,0 +1,22 @@
+<svg version="1.0" viewBox="0 0 535 110" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" 
+				xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<metadata>
+				<rdf:RDF>
+				<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				</cc:Work>
+				</rdf:RDF>
+				</metadata>
+				<defs>
+				<radialGradient id="b" cx="80" cy="242.59" r="97.352" gradientTransform="matrix(.54003 0 0 .5136 13.686 -69.593)" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fc0" offset="0"/>
+				<stop stop-color="#ff6e00" offset="1"/>
+				</radialGradient>
+				</defs>
+				<path id="a" d="m56.888 5 12.409 38.199 40.164-0.002279-32.495 23.606 12.414 38.197-32.492-23.61-32.492 23.61 12.414-38.197-32.495-23.606 40.164 0.002279 12.409-38.199z" fill="url(#b)" fill-rule="evenodd"/>
+				<use transform="translate(105.31)" width="535" height="110" xlink:href="#a"/>
+				<use transform="translate(210.61)" width="535" height="110" xlink:href="#a"/>
+				<use transform="translate(315.92)" width="535" height="110" xlink:href="#a"/>
+				<use transform="translate(421.22)" width="535" height="110" xlink:href="#a"/>
+			</svg>
