@@ -15,6 +15,7 @@ body {
   font-family: "Raleway";
   height: 100%;
 }
+
 body h1 {
   text-align: center;
   color: #fff;
@@ -48,16 +49,55 @@ embed {
 	border-top-left-radius:50%;
 	border-top-right-radius:50%;
 	color: #fff;
-	padding: 1%;
+	padding: 2%;
 }
 
 .footer svg {
-	width: 25%;
-	height: 25%;
+	width: 15%;
+	min-width:200px;
 }
 
 .features {
 	color: #428BFF;
+}
+
+.block {
+	position: relative;
+	margin: 75px auto 75px auto;
+	width: 90%;
+	height: auto;
+	background: white;
+	padding: 10px;
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(50px);
 }
 
 .tabs, .main {
