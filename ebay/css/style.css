@@ -10,16 +10,50 @@ html {
 
 body {
   background: #efefef;
+  background-image: url('../images/dblue211.gif');
   color: #333;
   font-family: "Raleway";
   height: 100%;
 }
 body h1 {
   text-align: center;
-  color: #428BFF;
+  color: #fff;
   font-weight: 300;
   padding: 40px 0 20px 0;
   margin: 0;
+}
+
+embed {
+	width: 100%;
+	height: auto;
+}
+
+.header {
+	background:#7f7f7f;
+	background:rgba(0,0,0,0.7);
+	margin-bottom: 25px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	border-radius: 5px;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:50%;
+}
+
+.footer {
+	text-align: center;
+	background:#7f7f7f;
+	background:rgba(0,0,0,0.7);
+	margin-top: 25px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	border-radius: 5px;
+	border-top-left-radius:50%;
+	border-top-right-radius:50%;
+	color: #fff;
+	padding: 1%;
+}
+
+.footer svg {
+	width: 25%;
+	height: 25%;
 }
 
 .features {
@@ -32,6 +66,7 @@ body h1 {
           transform: translateX(-50%);
   position: relative;
   background: white;
+  background:rgba(255,255,255,0.9);
   padding: 35px;
   width: 70%;
   height: auto;
