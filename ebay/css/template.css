@@ -1,0 +1,238 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+/* colors */
+/* tab setting */
+/* breakpoints */
+/* selectors relative to radio inputs */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #efefef;
+  background-image: url('../images/dblue211.gif');
+  color: #333;
+  font-family: "Raleway";
+  height: 100%;
+}
+
+body h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  padding: 40px 0 20px 0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%
+  padding: 0 4px;
+  text-align: center;
+}
+
+/*Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+ padding: 0 8%;
+  text-align: center;
+}
+
+.column img {
+  margin-top: 8px;
+ vertical-align: middle;
+  width: 100%;
+}
+
+/*Responsive layout - makes the two columns stack on top of each other insteadof next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+   max-width: 100%;
+  }
+} 
+
+img.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	min-width:200px;
+	-webkit-box-shadow:
+    	0px 0px 0px 2px rgba(0,0,0,0.6),
+                0px 0px 0px 14px #000,
+                0px 0px 0px 18px rgba(0,0,0,0.2),
+                6px 6px 8px 17px #555;
+  
+     -moz-box-shadow:
+    	0px 0px 0px 2px rgba(0,0,0,0.6),
+                0px 0px 0px 14px #000,
+                0px 0px 0px 18px rgba(0,0,0,0.2),
+                6px 6px 8px 17px #555;
+  
+    box-shadow:
+    	0px 0px 0px 2px rgba(0,0,0,0.6),
+                0px 0px 0px 14px #000,
+                0px 0px 0px 18px rgba(0,0,0,0.2),
+                6px 6px 8px 17px #555;
+}
+
+img.photo:hover {
+	transform: scale(1.5); 
+}
+
+.header {
+	background:#7f7f7f;
+	background:rgba(0,0,0,0.7);
+	margin-bottom: 25px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	border-radius: 5px;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:50%;
+}
+
+.footer {
+	text-align: center;
+	background:#7f7f7f;
+	background:rgba(0,0,0,0.7);
+	margin-top: 25px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	border-radius: 5px;
+	border-top-left-radius:50%;
+	border-top-right-radius:50%;
+	color: #fff;
+	padding: 2%;
+}
+
+.footer img {
+	width: 15%;
+	min-width:200px;
+}
+
+.features {
+	color: #428BFF;
+}
+
+.block {
+	position: relative;
+	margin: 35px auto 35px auto;
+	width: 90%;
+	height: auto;
+	background: white;
+	padding: 15px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.52);
+	border-radius: 5px;	
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(50px);
+}
+
+.tabs, .main {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: relative;
+  background: white;
+  width: 70%;
+  height: auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 0 none;
+}
+
+.main {
+	background:rgba(0,0,0,0.5);
+	padding: 35px;
+}
+
+.tabs {
+	background:rgba(255,255,255,0.9);
+	overflow: hidden;
+	height: 250px;
+}
+
+@media (max-width: 1400px) {
+	.tabs {
+		height: 300px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.tabs {
+		height: 400px;
+	}
+}
+
+@media (max-width: 800px) {
+	.tabs {
+		height: 450px;
+	}
+}
+
+@media (max-width: 700px) {
+	.tabs {
+		height: 450px;
+	}
+}
+
+@media (max-width: 600px) {
+	.tabs {
+		height: 550px;
+	}
+}
+
+@media (max-width: 500px) {
+	.tabs {
+		height: 650px;
+	}
+}
+
+@media (max-width: 400px) {
+	.tabs {
+		height: 750px;
+	}
+}
+
+@media (max-width: 300px) {
+	.tabs {
+		height: 850px;
+	}
+}
