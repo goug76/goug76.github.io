@@ -25,6 +25,10 @@ body h1 {
   margin: 0;
 }
 
+img {
+	max-width: 100%
+}
+
 .header, .title {
 	text-align: center;
 	background: rgb(104,114,100);
