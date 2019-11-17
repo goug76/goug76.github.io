@@ -113,7 +113,7 @@ img {
           transform: translateX(-50%);
   position: relative;
   background:rgba(247,249,251,0.9);
-  width: 90%;
+  width: 100%;
   height: auto;
   box-shadow: 0 14px 28px rgba(143,193,227, 0.25), 0 10px 10px rgba(143,193,227, 0.22);
   border-radius: 5px;
