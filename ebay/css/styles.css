@@ -149,6 +149,10 @@ video {
 	width: 65%;
 }
 
+#left h3 {
+	text-align: center;	
+}
+
 #left ul {
 	display: block;
 	padding-left: 5%;	
