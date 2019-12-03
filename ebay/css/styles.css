@@ -11,7 +11,7 @@ html {
 
 body {	 
   background: #687264;
-  /*background-image: url('../images/dblue211.gif');*/
+  background-image: url('https:goug76.github.io/ebay/images/holid014.jpg');
   color: #333;
   font-family: "Raleway";
   height: 100%;
@@ -117,11 +117,12 @@ video {
           transform: translateX(-50%);
   position: relative;
   background:rgba(247,249,251,0.9);
-  width: 100%;
+  width: 85%;
   height: auto;
   box-shadow: 0 14px 28px rgba(143,193,227, 0.25), 0 10px 10px rgba(143,193,227, 0.22);
   border-radius: 5px;
   margin-bottom: 35px;
+  margin-top: 100px;
 }
 
 .policies { 
