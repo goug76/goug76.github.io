@@ -303,8 +303,7 @@ video {
 }
 .tabs ul li label svg, .tabs ul li label img {
   fill: #929daf;
-  height: 1.2em;
-	min-height: 1em;
+  height: 2em;
   vertical-align: bottom;
   margin-right: 0.2em;
   -webkit-transition: all 0.2s ease-in-out;
