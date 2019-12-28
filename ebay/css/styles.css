@@ -11,7 +11,7 @@ html {
 
 body {	 
   background: #687264;
-  background-image: url('https://goug76.github.io/ebay/images/holid014.jpg');
+  /*background-image: url('https:goug76.github.io/ebay/images/holid014.jpg');*/
   color: #333;
   font-family: "Raleway";
   height: 100%;
@@ -128,7 +128,7 @@ video {
           transform: translateX(-50%);
   position: relative;
   background:rgba(247,249,251,0.9);
-  width: 85%;
+  width: 100%;
   height: auto;
   box-shadow: 0 14px 28px rgba(143,193,227, 0.25), 0 10px 10px rgba(143,193,227, 0.22);
   border-radius: 5px;
@@ -169,7 +169,6 @@ video {
 }
 
 #left ul, #policies ul {
-	margin-top: 15px;
 	display: block;
 	padding-left: 5%;	
 }
@@ -303,7 +302,7 @@ video {
 }
 .tabs ul li label svg, .tabs ul li label img {
   fill: #929daf;
-  width: 1.2em;
+  height: 1.2em;
   vertical-align: bottom;
   margin-right: 0.2em;
   -webkit-transition: all 0.2s ease-in-out;
