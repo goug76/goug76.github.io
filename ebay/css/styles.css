@@ -95,13 +95,13 @@ video {
 	color: #31708E;
 }
 
-.main .notes h3{
+.main-container .notes h3{
 	display:none;
 	text-align:center;
 	color: #5085A5;
 }
 
-.tabs, .main {
+.tabs, .main-container {
   background:rgba(247,249,251,0.9);
   height: auto;
   box-shadow: 0 14px 28px rgba(143,193,227, 0.25), 0 10px 10px rgba(143,193,227, 0.22);
