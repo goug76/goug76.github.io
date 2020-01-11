@@ -106,7 +106,7 @@ video {
 	/*padding-bottom: 25px;*/
 }
 
-.main h3{
+.main .notes h3{
 	display:none;
 	text-align:center;
 	color: #5085A5;
